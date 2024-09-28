@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using JwtAuth.Infrastructure.Repository;
+using JwtAuth.Infrastructure;
 
-namespace JwtAuth.Infrastructure;
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class DependecyInjection
 {
