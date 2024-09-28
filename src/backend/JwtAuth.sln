@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.Domain", "JwtAuth.Domain\JwtAuth.Domain.csproj", "{B1338331-9FEC-4376-8690-69CE607278D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.HS256", "JwtAuth.HS256\JwtAuth.HS256.csproj", "{CC076524-A307-4855-B716-FA40D262AA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.RS256", "JwtAuth.RS256\JwtAuth.RS256.csproj", "{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1338331-9FEC-4376-8690-69CE607278D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1338331-9FEC-4376-8690-69CE607278D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1338331-9FEC-4376-8690-69CE607278D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1338331-9FEC-4376-8690-69CE607278D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC076524-A307-4855-B716-FA40D262AA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC076524-A307-4855-B716-FA40D262AA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC076524-A307-4855-B716-FA40D262AA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC076524-A307-4855-B716-FA40D262AA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
