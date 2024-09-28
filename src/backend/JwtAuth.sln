@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.HS256", "JwtAuth.HS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.RS256", "JwtAuth.RS256\JwtAuth.RS256.csproj", "{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.Infrastructure", "JwtAuth.Infrastructure\JwtAuth.Infrastructure.csproj", "{E3212C67-C3CC-4FB2-B3FE-171814C0ED5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth.Service", "JwtAuth.Service\JwtAuth.Service.csproj", "{1A6C60B3-7BA7-4B71-A821-0CF7B93CA91E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B2D9B9-36F0-4C3A-822E-B5559760BA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3212C67-C3CC-4FB2-B3FE-171814C0ED5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3212C67-C3CC-4FB2-B3FE-171814C0ED5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3212C67-C3CC-4FB2-B3FE-171814C0ED5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3212C67-C3CC-4FB2-B3FE-171814C0ED5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6C60B3-7BA7-4B71-A821-0CF7B93CA91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6C60B3-7BA7-4B71-A821-0CF7B93CA91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6C60B3-7BA7-4B71-A821-0CF7B93CA91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6C60B3-7BA7-4B71-A821-0CF7B93CA91E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
