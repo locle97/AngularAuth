@@ -10,7 +10,7 @@ public static class DependecyInjection
     {
         services.AddDbContext<ApplicationDbContext>(options =>
         {
-            options.UseSqlite("Data Source=./auth.db");
+            options.UseSqlite("Data Source=../auth.db");
         });
         services.AddScoped<ApplicationDbContext, ApplicationDbContext>();
 

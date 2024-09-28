@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\JwtAuth.Infrastructure\JwtAuth.Infrastructure.csproj" />
+    <ProjectReference Include="..\JwtAuth.Domain\JwtAuth.Domain.csproj" />
   </ItemGroup>
 
 </Project>

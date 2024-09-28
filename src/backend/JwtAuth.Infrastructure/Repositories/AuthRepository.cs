@@ -10,10 +10,10 @@ public class AuthRepository : IAuthRepository
         _dbContext = dbContext;
     }
 
-    public async Task<bool> CheckValidUser(string username, string password)
+    public async Task<User> Auth(string username, string password)
     {
-        var user = await _dbContext.Users.Where(t => t.Username == username && t.Password == password).FirstOrDefaultAsync();
-        return user is not null;
+        User user = await _dbContext.Users.Where(t => t.Username == username && t.Password == password).FirstOrDefaultAsync();
+        return user;
     }
 
     public Task<User> GetUser(int id)

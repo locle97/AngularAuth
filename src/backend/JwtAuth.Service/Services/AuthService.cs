@@ -1,10 +1,12 @@
+using JwtAuth.Domain.Entities;
 using JwtAuth.Infrastructure.Repository;
 
 namespace JwtAuth.Service;
 
 public interface IAuthService
 {
-    Task<bool> Auth(string username, string password);
+    // Check if valid user or not Return token
+    Task<string> Auth(string username, string password);
 }
 
 public class AuthService : IAuthService
@@ -16,8 +18,12 @@ public class AuthService : IAuthService
         _authRepository = authRepository;
     }
 
-    public Task<bool> Auth(string username, string password)
+    public async Task<string> Auth(string username, string password)
     {
-        return _authRepository.CheckValidUser(username, password);
+        User user = await _authRepository.Auth(username, password);
+        if (user is null)
+            throw new UnauthorizedAccessException();
+
+        return "Valid";
     }
 }

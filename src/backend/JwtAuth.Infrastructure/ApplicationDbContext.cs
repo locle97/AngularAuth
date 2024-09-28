@@ -17,6 +17,6 @@ public class ApplicationDbContext: DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseSqlite($"Data Source=./auth.db");
+      optionsBuilder.UseSqlite($"Data Source=../auth.db");
     }
 }

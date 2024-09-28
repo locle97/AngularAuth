@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JwtAuth.Service\JwtAuth.Service.csproj" />
+    <ProjectReference Include="..\JwtAuth.Infrastructure\JwtAuth.Infrastructure.csproj" />
+    <ProjectReference Include="..\JwtAuth.Domain\JwtAuth.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
