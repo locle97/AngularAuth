@@ -9,6 +9,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructure();
 builder.Services.AddServices();
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -18,6 +19,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(option =>
+{
+    option.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+});
 
 app.UseHttpsRedirection();
 

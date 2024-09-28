@@ -28,6 +28,11 @@ public class ApplicationDbContext : DbContext
                 Id = 1,
                 Username = "admin",
                 Password = "123456"
+            },
+            new User() {
+                Id = 2,
+                Username = "user",
+                Password = "123456"
             }
         );
     }

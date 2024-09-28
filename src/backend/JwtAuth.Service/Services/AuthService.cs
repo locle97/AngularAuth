@@ -46,6 +46,7 @@ public class AuthService : IAuthService
             claims: new List<Claim>()
             {
                 new Claim("username", user.Username),
+                new Claim("role", user.Username),
             },
             expires: DateTime.Now.AddMinutes(30),
             signingCredentials: credentials
